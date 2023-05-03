@@ -12,10 +12,10 @@ public class CreateFile {
 		this.file = new File(pathname);
 	}
 
-	public void createHeader(FileWriter writer) {
+	public void createHeader(FileWriter writer, int dimension) {
 		try {
 			writer.write("NAME : portmgen-10-1\n" + "COMMENT : portmgen N=10, seed=1\n" + "TYPE : TSP\n"
-					+ "DIMENSION : 10\n" + "EDGE_WEIGHT_TYPE : EXPLICIT\n" + "EDGE_WEIGHT_FORMAT : UPPER_DIAG_ROW\n"
+					+ "DIMENSION : " + dimension +"\n" + "EDGE_WEIGHT_TYPE : EXPLICIT\n" + "EDGE_WEIGHT_FORMAT : UPPER_DIAG_ROW\n"
 					+ "EDGE_WEIGHT_SECTION");
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -8,6 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="img"/>
 	<classpathentry kind="src" path="col"/>
-	<classpathentry kind="src" path="instance"/>
+	<classpathentry kind="src" path="teste"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
